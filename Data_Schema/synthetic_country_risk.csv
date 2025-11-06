@@ -1,0 +1,15 @@
+country_code,country_name,risk_score,risk_band,last_update
+PER,Perú,45,Medio,2025-09-30
+ARG,Argentina,68,Alto,2025-09-30
+USA,Estados Unidos,15,Muy Bajo,2025-09-30
+ESP,España,20,Muy Bajo,2025-09-30
+KAZ,Kazajistán,55,Medio,2025-09-30
+ROU,Rumanía,30,Bajo,2025-09-30
+NLD,Países Bajos,12,Muy Bajo,2025-09-30
+BRA,Brasil,40,Bajo,2025-09-30
+ECU,Ecuador,52,Medio,2025-09-30
+TUR,Turquía,60,Medio,2025-09-30
+LTU,Lituania,22,Bajo,2025-09-30
+CHL,Chile,18,Muy Bajo,2025-09-30
+BOL,Bolivia,50,Medio,2025-09-30
+HND,Honduras,58,Medio,2025-09-30

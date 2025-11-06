@@ -1,0 +1,238 @@
+##schema JSON: abastecimiento
+[
+  {
+    "Name": "purchase_order_id",
+    "Type": "bigint"
+  },
+  {
+    "Name": "po_item",
+    "Type": "int"
+  },
+  {
+    "Name": "material_id",
+    "Type": "string"
+  },
+  {
+    "Name": "material_desc",
+    "Type": "string"
+  },
+  {
+    "Name": "category",
+    "Type": "string"
+  },
+  {
+    "Name": "supplier_id",
+    "Type": "string"
+  },
+  {
+    "Name": "supplier_name",
+    "Type": "string"
+  },
+  {
+    "Name": "supplier_country",
+    "Type": "string"
+  },
+  {
+    "Name": "incoterm",
+    "Type": "string"
+  },
+  {
+    "Name": "currency",
+    "Type": "string"
+  },
+  {
+    "Name": "price_per_unit",
+    "Type": "double"
+  },
+  {
+    "Name": "quantity",
+    "Type": "double"
+  },
+  {
+    "Name": "unit",
+    "Type": "string"
+  },
+  {
+    "Name": "plant",
+    "Type": "string"
+  },
+  {
+    "Name": "order_date",
+    "Type": "string"
+  },
+  {
+    "Name": "promised_date",
+    "Type": "string"
+  },
+  {
+    "Name": "delivery_date",
+    "Type": "string"
+  },
+  {
+    "Name": "projected_usd_per_kg",
+    "Type": "double"
+  },
+  {
+    "Name": "fx_pen_per_usd_at_order",
+    "Type": "double"
+  },
+  {
+    "Name": "qty_kg",
+    "Type": "double"
+  },
+  {
+    "Name": "unit_cost_usd_per_kg",
+    "Type": "double"
+  },
+  {
+    "Name": "total_cost_usd",
+    "Type": "double"
+  },
+  {
+    "Name": "lead_time_plan_days",
+    "Type": "int"
+  },
+  {
+    "Name": "lead_time_actual_days",
+    "Type": "int"
+  },
+  {
+    "Name": "cost_deviation_pct_vs_projection",
+    "Type": "double"
+  },
+  {
+    "Name": "supplier_type",
+    "Type": "string"
+  },
+  {
+    "Name": "supplier_country_code",
+    "Type": "string"
+  },
+  {
+    "Name": "supplier_country_risk_score",
+    "Type": "int"
+  },
+  {
+    "Name": "supplier_country_risk_band",
+    "Type": "string"
+  }
+]
+
+
+##schema JSON: demanda
+[
+  {
+    "Name": "period",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "material_id",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "market",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "forecast_qty",
+    "Type": "double",
+    "Comment": ""
+  },
+  {
+    "Name": "unit",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "projected_unit_cost_usd_per_kg",
+    "Type": "double",
+    "Comment": ""
+  }
+]
+
+
+##schema JSON: producción
+
+[
+  {
+    "Name": "production_order_id",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "material_id",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "plant",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "planned_qty",
+    "Type": "double",
+    "Comment": ""
+  },
+  {
+    "Name": "actual_qty",
+    "Type": "double",
+    "Comment": ""
+  },
+  {
+    "Name": "unit",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "prod_start_date",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "prod_end_date",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "std_cost_pen_per_kg",
+    "Type": "double",
+    "Comment": ""
+  }
+]
+
+
+
+
+## schema JSON: riesgo externo
+
+[
+  {
+    "Name": "country_code",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "country_name",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "risk_score",
+    "Type": "int",
+    "Comment": ""
+  },
+  {
+    "Name": "risk_band",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "last_update",
+    "Type": "string",
+    "Comment": ""
+  }
+]
